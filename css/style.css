@@ -15,8 +15,15 @@ header {
     height: 70px;
 }
 
+footer {
+    background-color: rgb(26,26,26);
+    padding: 20px 0;
+    width: 100%;
+    height: 70px;
+}
+
 main {
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 ul {
@@ -50,6 +57,9 @@ li {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.gap-20px {
     gap:20px;
 }
 
@@ -60,18 +70,26 @@ li {
 /* COLONNE */
 .col-33 {
     width: calc(100% / 3 - 20px);
-    height: 500px;
+    height: 100%;
 }
 
 .col-25 {
-    width: calc(25% - 20px);
+    width: calc(25%);
     height: 100%;
     border: 1px dashed black;
 }
 
-.col-50 {
-    width: calc(50% - 20px);
+.col-90 {
+    width: calc(90%);
     height: 100%;
+    border: 1px dashed black;
+}
+
+
+.col-10 {
+    width: calc(10%);
+    height: 100%;
+    border: 1px dashed black;
 }
 
 .product {
@@ -157,4 +175,12 @@ a {
     text-decoration: none;
     color:#fff;
     padding: 2px;
+}
+
+.info a {
+    font-size: 10px;
+}
+
+.info i {
+    color: white;
 }
