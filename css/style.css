@@ -64,6 +64,18 @@ main {
     font-weight: 500;
 }
 
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+.heart:hover {
+    color:red
+}
+
 .left-0 {
     left:0;
 }
