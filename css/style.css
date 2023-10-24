@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 header {
     background-color: orange;
     padding: 20px 0;
@@ -39,6 +43,28 @@ main {
 .product {
     width: 100%;
     position:relative;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+}
+
+.sustainability {
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
 }
 
 img {
